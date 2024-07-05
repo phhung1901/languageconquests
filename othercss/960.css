@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_9 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1017px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9{
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* Grid >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+    .container_9 .grid_1 {
+	width:93px;
+}
+    .container_9 .grid_2 {
+	width:206px;
+}
+    .container_9 .grid_3 {
+	width:319px;
+}
+    .container_9 .grid_4 {
+	width:432px;
+}
+    .container_9 .grid_5 {
+	width:545px;
+}
+    .container_9 .grid_6 {
+	width:658px;
+}
+    .container_9 .grid_7 {
+	width:771px;
+}
+    .container_9 .grid_8 {
+	width:884px;
+}
+    .container_9 .grid_9 {
+	width:997px;
+}
+
+
+
+
+/* Prefix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+    .container_9 .prefix_1 {
+	padding-left:113px;
+}
+    .container_9 .prefix_2 {
+	padding-left:226px;
+}
+    .container_9 .prefix_3 {
+	padding-left:339px;
+}
+    .container_9 .prefix_4 {
+	padding-left:452px;
+}
+    .container_9 .prefix_5 {
+	padding-left:565px;
+}
+    .container_9 .prefix_6 {
+	padding-left:678px;
+}
+    .container_9 .prefix_7 {
+	padding-left:791px;
+}
+    .container_9 .prefix_8 {
+	padding-left:904px;
+}
+
+
+/* Suffix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+    .container_9 .suffix_1 {
+	padding-right:113px;
+}
+    .container_9 .suffix_2 {
+	padding-right:226px;
+}
+    .container_9 .suffix_3 {
+	padding-right:339px;
+}
+    .container_9 .suffix_4 {
+	padding-right:452px;
+}
+    .container_9 .suffix_5 {
+	padding-right:565px;
+}
+    .container_9 .suffix_6 {
+	padding-right:678px;
+}
+    .container_9 .suffix_7 {
+	padding-right:791px;
+}
+    .container_9 .suffix_8 {
+	padding-right:904px;
+}
+
+
+/* Push Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+    .container_9 .push_1 {
+	left:113px;
+}
+    .container_9 .push_2 {
+	left:226px;
+}
+    .container_9 .push_3 {
+	left:339px;
+}
+    .container_9 .push_4 {
+	left:452px;
+}
+    .container_9 .push_5 {
+	left:565px;
+}
+    .container_9 .push_6 {
+	left:678px;
+}
+    .container_9 .push_7 {
+	left:791px;
+}
+    .container_9 .push_8 {
+	left:904px;
+}
+
+
+
+
+/* Pull Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+    .container_9 .pull_1 {
+	right:113px;
+}
+    .container_9 .pull_2 {
+	right:226px;
+}
+    .container_9 .pull_3 {
+	right:339px;
+}
+    .container_9 .pull_4 {
+	right:452px;
+}
+    .container_9 .pull_5 {
+	right:565px;
+}
+    .container_9 .pull_6 {
+	right:678px;
+}
+    .container_9 .pull_7 {
+	right:791px;
+}
+    .container_9 .pull_8 {
+	right:904px;
+}
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+/*
+     FILE ARCHIVED ON 05:14:03 Dec 23, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:59:11 Jul 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.563
+  exclusion.robots: 0.14
+  exclusion.robots.policy: 0.132
+  esindex: 0.009
+  cdx.remote: 20.653
+  LoadShardBlock: 323.912 (3)
+  PetaboxLoader3.datanode: 66.897 (4)
+  PetaboxLoader3.resolve: 247.231 (2)
+  load_resource: 153.629
+*/

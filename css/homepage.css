@@ -1,0 +1,59 @@
+﻿.ContentArea
+{
+  height: 520px;   
+}
+
+.SubTitle
+{
+  position: relative;
+  color: rgb(70,70,70); 
+  top:10px;  
+  text-align:center; 
+  font-size:28px; 
+  display: inline;
+  margin:0px;   
+}
+
+h3
+{
+  color: rgb(70,70,70);   
+  text-align:center; 
+  font-size:28px;   
+}
+
+.HomeLabelInfo
+{
+	color: rgb(80,80,80); 
+    font-size:medium;
+    margin-left: 70px;
+    margin-right: 70px;
+    top: 65px;
+    font-weight:bold;
+    text-align:justify;
+    position:relative;
+	
+}
+
+img, div { behavior: url(/web/20171012230619im_/http://languageconquests.com/css/iepngfix.htc) }
+
+
+/*
+     FILE ARCHIVED ON 23:06:19 Oct 12, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:39:47 Jul 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.127
+  exclusion.robots: 0.358
+  exclusion.robots.policy: 0.339
+  esindex: 0.014
+  cdx.remote: 13.397
+  LoadShardBlock: 57.225 (3)
+  PetaboxLoader3.datanode: 185.364 (4)
+  load_resource: 338.893
+  PetaboxLoader3.resolve: 201.099
+*/

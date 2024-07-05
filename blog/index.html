@@ -1,0 +1,244 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><link href="css/masterpage.css" rel="stylesheet" type="text/css" />    
+    <script src="jquery/jquery-1.4.2.js" type="text/javascript"></script>     
+    <script src="jquery/jquery.cycle.all.min.js" type="text/javascript"></script> 
+    <script src="jquery/allpages.js" type="text/javascript"></script>   
+    <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="CSS/MasterPageIE6.css" />
+    <![endif]-->
+    
+   
+    <title>English Language Blog Centre</title>
+    <link href="css/blog.css" rel="stylesheet" type="text/css" />
+ </head>
+<body>
+    <form method="post" action="./blog" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjUxMTQyMDA1D2QWAmYPZBYCAgMPZBYMAgUPFgIeCWlubmVyaHRtbAVxTGVhcm4gRW5nbGlzaCBhbmQgZW5qb3kgdGhlIHNwYXJrbGluZyBNZWRpdGVycmFuZWFuIFNlYSwgdGhlIHdvbmRlcmZ1bCBjbGltYXRlIGFuZCB0aGUgZnJpZW5kbHkgcGVvcGxlIG9mIEN5cHJ1cy5kAgcPFgIfAAUtTGVhcm4gRW5nbGlzaCBpbiBhIHBsYWNlIG9mIHNlYSwgc3VuIGFuZCBmdW4hZAIJDxYCHwAFZVdlIG9yZ2FuaXplIGxlYXJuaW5nIGdyb3VwcyBsYXJnZSBlbm91Z2ggdG8gYmUgc3RpbXVsYXRpbmcgYnV0IHNtYWxsIGVub3VnaCB0byBjYXJlIGFib3V0IGluZGl2aWR1YWxzZAILDw8WAh4ISW1hZ2VVcmwFHGhlYWRlcmltYWdlc1xoZWFkZXJibG9nMi5qcGdkZAINDw8WAh8BBRxoZWFkZXJpbWFnZXNcaGVhZGVyYmxvZzMuanBnZGQCDw9kFgQCAQ8WAh8ABRRDdXJyZW50IEJsb2cgRW50cmllc2QCAw8WAh4LXyFJdGVtQ291bnQCChYUZg9kFgJmDxUEN0J1c2luZXNzIENvbW11bmljYXRpb24gU2tpbGxzIGZvciB0aGUgU2VydmljZXMgSW5kdXN0cnkLMDIgSnVuIDIwMTE5MDIvMDYvMjAxMS9jb21tdW5pY2F0aW9uX3NraWxsc19mb3JfdGhlX3NlcnZpY2VzX2luZHVzdHJ5OTAyLzA2LzIwMTEvY29tbXVuaWNhdGlvbl9za2lsbHNfZm9yX3RoZV9zZXJ2aWNlc19pbmR1c3RyeWQCAQ9kFgJmDxUEK0ZpcnN0IERpc3RyaWN0IEVkdWNhdGlvbmFsIEZhaXIgaW4gTGltYXNzb2wLMTYgTWF5IDIwMTEqMTYvMDUvMjAxMS9maXJzdF9kaXN0cmljdF9lZHVjYXRpb25hbF9mYWlyKjE2LzA1LzIwMTEvZmlyc3RfZGlzdHJpY3RfZWR1Y2F0aW9uYWxfZmFpcmQCAg9kFgJmDxUEKkJ1c2luZXNzIGFuZCBBZ3JvdG91cmlzbSBDb3Vyc2VzIGluIEN5cHJ1cwswNyBBcHIgMjAxMScwNy8wNC8yMDEwL2J1c2luZXNzX2Fncm90b3VyaXNtX2NvdXJzZXMnMDcvMDQvMjAxMC9idXNpbmVzc19hZ3JvdG91cmlzbV9jb3Vyc2VzZAIDD2QWAmYPFQQdTGlmZS1Mb25nIExlYXJuaW5nIFByb2dyYW1tZXMLMDUgQXByIDIwMTEoMDUvMDQvMjAxMC9saWZlLWxvbmdfbGVhcm5pbmdfcHJvZ3JhbW1lcygwNS8wNC8yMDEwL2xpZmUtbG9uZ19sZWFybmluZ19wcm9ncmFtbWVzZAIED2QWAmYPFQQcU3BvcnRzIGFuZCBMYW5ndWFnZSBMZWFybmluZwsyNSBNYXIgMjAxMScyNS8wMy8yMDEwL3Nwb3J0c19hbmRfbGFuZ3VhZ2VfbGVhcm5pbmcnMjUvMDMvMjAxMC9zcG9ydHNfYW5kX2xhbmd1YWdlX2xlYXJuaW5nZAIFD2QWAmYPFQRCQnVzaW5lc3MgRW5nbGlzaCBMYW5ndWFnZS9Db21tdW5pY2F0aW9uIFNraWxscyBUcmFpbmluZyBQcm9ncmFtbWVzCzEzIEZlYiAyMDExLzEzLzAyLzIwMTEvYnVzaW5lc3NfZW5nbGlzaF90cmFpbmluZ19wcm9ncmFtbWVzLzEzLzAyLzIwMTEvYnVzaW5lc3NfZW5nbGlzaF90cmFpbmluZ19wcm9ncmFtbWVzZAIGD2QWAmYPFQQQQWxwaGUgQ29uZmVyZW5jZQsyNyBTZXAgMjAxMBsyNy8wOS8yMDEwL2FscGhlX2NvbmZlcmVuY2UbMjcvMDkvMjAxMC9hbHBoZV9jb25mZXJlbmNlZAIHD2QWAmYPFQQdTGVhcm5pbmcgYW5kIFRlYWNoaW5nIEVuZ2xpc2gLMzAgSnVsIDIwMTAkMzAvMDcvMjAxMC9sZWFybmluZ190ZWFjaGluZ19lbmdsaXNoJDMwLzA3LzIwMTAvbGVhcm5pbmdfdGVhY2hpbmdfZW5nbGlzaGQCCA9kFgJmDxUEJUJ1cmxpbmd0b24gRW5nbGlzaCAoTGVhcm5pbmcgb24tbGluZSkLMDUgRmViIDIwMTAbMDUvMDIvMjAxMC9hYm91dF9idXJsaW5ndG9uGzA1LzAyLzIwMTAvYWJvdXRfYnVybGluZ3RvbmQCCQ9kFgJmDxUEM0hvd2FyZCBHYXJkbmVy4oCZcyBUaGVvcnkgb2YgTXVsdGlwbGUgSW50ZWxsaWdlbmNlcwswOSBKdW4gMjAwOSYwOS8wNi8yMDA5L2Fib3V0X211bHRpcGxlX2ludGVsbGlnZW5jZSYwOS8wNi8yMDA5L2Fib3V0X211bHRpcGxlX2ludGVsbGlnZW5jZWRkoR5f/R1tLS+1eb2IDw2YxJEmn5b/WUPiNyMVa1peKSs=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5C9CE5AE" />
+    <div id="Main">
+       
+        
+        <div id="TopPanel"> 
+          <div id="TopInnerPanel">                      
+            <img alt="TopTitleHeader" src="headerimages/toptitleheader5.gif"/>            
+            <span id="HeaderLogoText1" class="HeaderLogoText1" TAG="Language Conquests">Language Conquests - EFL</span> 
+            <span id="HeaderLogoText2" class="HeaderLogoText2" TAG="Language Conquests">at the English Study Centre</span>   
+                   
+            <div  id="LanguageLinks">
+            <div class="Russian"><a href="russian"><font class="LanguageLinksColor">Russian</font></a></div>
+            <div class="Latvian"><a href="latvia"><font class="LanguageLinksColor">Latvian</font></a></div>
+            <div class="German"><a href="german"><font class="LanguageLinksColor">German</font></a></div>
+            <div class="French"><a href="french"><font class="LanguageLinksColor">French</font></a></div>
+            </div>
+
+            
+               <div id="Slogan1">Learn English and enjoy the sparkling Mediterranean Sea, the wonderful climate and the friendly people of Cyprus.</div>
+               <div id="Slogan2">Learn English in a place of sea, sun and fun!</div>
+               <div id="Slogan3">We organize learning groups large enough to be stimulating but small enough to care about individuals</div>               
+           
+
+           </div>                                 
+        </div>
+
+        
+        
+         
+          <div id="AnimDiv" class="pics">
+              <img id="Image1" alt="" class="Img1" src="headerimages\headerblog2.jpg" /> 	      
+              <img id="Image2" alt="" class="Img2" src="headerimages\headerblog3.jpg" />  
+	      </div>
+       
+
+       <br /><br /><br/>
+        
+        <div id="MenuDiv">
+          <div id="MenuDivInr">
+                    <div class="MenuDivs"><a href="/" class="MenuButtons">Home</a></div>
+                    <div class="MenuDivs"><a href="companyprofile" class="MenuButtons">Company</a></div>
+                    <div class="MenuDivs"><a href="courses" class="MenuButtons"><font class="MenuButtonsLink">Courses</font></a></div>
+                    <div class="MenuDivs"><a href="accommodation" class="MenuButtons"><font class="MenuButtonsLink">Accommodation</font></a></div>
+                    <div class="MenuDivs"><a href="registration" class="MenuButtons"><font class="MenuButtonsLink">Registration</font></a></div>
+                    <div class="MenuDivs"><a href="mission" class="MenuButtons"><font class="MenuButtonsLink">Mission</font></a></div>                    
+                    <div class="MenuDivs"><a href="director" class="MenuButtons"><font class="MenuButtonsLink">Director of Studies</font></a></div>
+                    <div class="MenuDivs"><a href="brochure" class="MenuButtons"><font class="MenuButtonsLink">Brochure</font></a></div>
+                    <div class="MenuDivs"><a href="photos" class="MenuButtons"><font class="MenuButtonsLink">Photos</font></a></div> 
+                    <div class="MenuDivs"><a href="blog" class="MenuButtons"><font class="MenuButtonsLink">Blog</font></a></div>                      
+                    <div class="MenuDivs"><a href="aboutcyprus" class="MenuButtons"><font class="MenuButtonsLink">Cyprus</font></a></div>
+                    <div class="MenuDivs"><a href="contactus" class="MenuButtons"><font class="MenuButtonsLink">Contact</font></a></div>               
+          </div> 
+        </div>        
+        
+        <div id="ContentPanel">       
+          
+    <br />
+    
+    <div class="Title">
+    <h1>Welcome to our English Language Blog!</h1>
+    </div>
+    
+    
+    <br />
+    <div class="Description">
+    Our English Blog is maintained by Language Conquests with regular entries of commentary, descriptions of events, articles and other material 
+    such as photographs or video. Here our visitors will have the chance to be constantly updated with our news and even read articles 
+    relevant to the courses we offer. Our entries will be displayed in reverse-chronological order, so that the newest entry will be on
+    the top. In the near future our Blog will be interactive, allowing our visitors to leave comments and even message us with their thoughts.     
+    </div>
+    <br />
+    
+    <br />
+    <div id="MainContent_Title" class="Note">Current Blog Entries</div>
+    <br />
+
+    <div class="List">
+     
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Business Communication Skills for the Services Industry</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>02 Jun 2011</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/02/06/2011/communication_skills_for_the_services_industry'><b>www.languageconquests.com/blog/02/06/2011/communication_skills_for_the_services_industry</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> First District Educational Fair in Limassol</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>16 May 2011</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/16/05/2011/first_district_educational_fair'><b>www.languageconquests.com/blog/16/05/2011/first_district_educational_fair</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Business and Agrotourism Courses in Cyprus</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>07 Apr 2011</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/07/04/2010/business_agrotourism_courses'><b>www.languageconquests.com/blog/07/04/2010/business_agrotourism_courses</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Life-Long Learning Programmes</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>05 Apr 2011</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/05/04/2010/life-long_learning_programmes'><b>www.languageconquests.com/blog/05/04/2010/life-long_learning_programmes</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Sports and Language Learning</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>25 Mar 2011</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/25/03/2010/sports_and_language_learning'><b>www.languageconquests.com/blog/25/03/2010/sports_and_language_learning</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Business English Language/Communication Skills Training Programmes</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>13 Feb 2011</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/13/02/2011/business_english_training_programmes'><b>www.languageconquests.com/blog/13/02/2011/business_english_training_programmes</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Alphe Conference</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>27 Sep 2010</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/27/09/2010/alphe_conference'><b>www.languageconquests.com/blog/27/09/2010/alphe_conference</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Learning and Teaching English</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>30 Jul 2010</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/30/07/2010/learning_teaching_english'><b>www.languageconquests.com/blog/30/07/2010/learning_teaching_english</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Burlington English (Learning on-line)</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>05 Feb 2010</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/05/02/2010/about_burlington'><b>www.languageconquests.com/blog/05/02/2010/about_burlington</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                 
+                <div style="position:relative;height:90px;">
+                 
+                <div class="DetailsColumn1"><b>Title:</b> Howard Gardner’s Theory of Multiple Intelligences</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn1"><b>Date Posted: </b>09 Jun 2009</div>
+                <div class="NextLine"></div>
+                <div class="DetailsColumn2"><a href='/blog/09/06/2009/about_multiple_intelligence'><b>www.languageconquests.com/blog/09/06/2009/about_multiple_intelligence</b></a></div>          
+                </div>
+                
+                
+                <div class="NextLine"></div>    
+                
+                
+    </div>
+
+      
+        </div>
+          
+        <div style="clear:both;"></div>
+        
+        <div id="BottomFooter">       
+            <img alt="" id="FooterLogo" src="headerimages/conquestsfooter.gif" class="Img3"   />
+            <div id="FooterText">Language Conquests - Learn English in Cyprus. &nbsp;&nbsp;E-Mail: krini@askanis.com</div>       
+        </div>
+    
+    </div>    
+    </form>
+</body>
+</html>

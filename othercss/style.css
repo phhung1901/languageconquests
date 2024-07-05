@@ -1,0 +1,308 @@
+/*
+Template for Language Conquest
+Realized by Saltycom
+http://www.saltycom.net
+May 2010
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+:focus {
+outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: #2A8495;
+	background-image: url(/../otherimages/mainbackground.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	font-family: Verdana, Arial, Sans-Serif;
+	color: black;
+	text-align: left;
+}
+
+ol, ul {
+list-style: none;
+}
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+
+/* Text decorations
+*******************************/
+.bold 		{ font-weight: bold; color: #361286; }
+.normal 	{ font-weight: normal; }
+.italic 	{ font-style: italic }
+.underline	{ text-decoration: underline; }
+strong {font-weight: bold;}
+
+/* Float
+*******************************/
+.f-right 	{ float: right; }
+.f-left 	{ float: left; }
+.f-none 	{ float: none; }
+
+/* Text align
+*******************************/
+.t-right 	{ text-align: right; }
+.t-left 	{ text-align: left; }
+.t-center 	{ text-align: center; }
+.t-justify 	{ text-align: justify; }
+
+/* Other
+*******************************/
+
+h1 {
+	width: 508px;
+	font-size: 2.7em;
+	font-weight: bold;
+	font-family: "Myriad Pro Cond", Verdana, Arial, Sans-Serif;
+	color: #4F93A5;
+	text-align: left;
+	float: left;
+	margin-top: 30px;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #4F93A5;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 13px 0 18px 0;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #097230;
+	text-align: left;
+	margin: 0px 0 15px 0px;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #097230;
+	text-align: left;
+	margin: 25px 0 15px 0px;
+}
+
+li {
+	color: #361286;
+	font-weight: bold;
+}
+
+strong {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #361286;
+}
+
+em {
+	font-size: 1em;
+	font-weight: bold;
+	color: #097230;
+	font-style: normal;
+}
+
+p {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+a {
+	color: #361286;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: white;
+	background-color: #097230;
+}
+
+#header-frame {
+	margin: 50px auto 0 auto;
+	padding-top: 10px;
+	width: 888px;
+	background: white;
+}
+
+#header {
+	margin: 0 10px 0 10px;
+	background: white;
+}
+
+#logo-efl {
+	float: left;
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+#logos {
+	width: 100px;
+	height: 174px;
+	margin: 21px 20px 0 20px;
+	float: left;
+}
+
+#russian {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(/../otherimages/flag_russia.png) no-repeat 0 0;
+}
+
+#latvian {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(/../otherimages/flag_latvia.png) no-repeat 0 0;
+}
+
+#english {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(/../otherimages/flag_united_kingdom.png) no-repeat 0 0;
+}
+
+#facebook {
+	display: block;
+	clear: left;
+	width: 100px;
+	height: 31px;
+	background: url(/../otherimages/facebook.png) no-repeat 0 0;
+}
+
+
+#cyprus {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(/../otherimages/Cyprus-eng.png) no-repeat 0 0;
+}
+#cyprus-ru {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(/../otherimages/cyprus-ru.png) no-repeat 0 0;
+}
+#cyprus-lv {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(/../otherimages/Cyprus-lv.png) no-repeat 0 0;
+}
+
+#russian:hover {
+	background-position: 0 -50px;
+}
+
+#latvian:hover {
+	background-position: 0 -50px;
+}
+
+#english:hover {
+	background-position: 0 -50px;
+}
+
+#cyprus:hover {
+	background-position: 0 -100px;
+}
+#cyprus-ru:hover {
+	background-position: 0 -100px;
+}
+#cyprus-lv:hover {
+	background-position: 0 -100px;
+}
+
+#facebook:hover {
+	background-position: 0 -31px;
+}
+
+#logo-school {
+	margin-bottom: 15px;
+}
+
+#page-frame {
+	width: 888px;
+	background-color: #FFFCDB;
+	margin: 0 auto 0 auto;
+	font-family: Arial, Sans-Serif;
+	font-size: .9em;
+}
+
+#page {
+	padding-top: 20px;
+	margin: 0px 10px 10px 10px;
+	background-image: url(/../otherimages/page-background.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.photo {
+	clear: left;
+	float: left;
+	margin: 0px 20px 10px 0;
+}
+
+#page-frame hr {
+	clear: left;
+	visibility: hidden;
+}
+
+
+
+/*
+     FILE ARCHIVED ON 04:49:03 Dec 23, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:00:39 Jul 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.644
+  exclusion.robots: 0.179
+  exclusion.robots.policy: 0.169
+  esindex: 0.009
+  cdx.remote: 17.998
+  LoadShardBlock: 121.276 (3)
+  PetaboxLoader3.datanode: 54.609 (4)
+  PetaboxLoader3.resolve: 128.815 (2)
+  load_resource: 64.754
+*/

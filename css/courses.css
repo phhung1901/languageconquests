@@ -1,0 +1,108 @@
+﻿.Title
+{
+   font-size:17px; 
+   font-weight:bolder;
+   text-decoration: underline;
+}
+.Description
+{
+  font-size:15px;   
+}
+
+.Column1
+{
+ 
+ width:10px;
+}
+
+.Column2
+{
+  
+  width: 250px;
+}
+
+.Column3
+{
+  
+  width: 250px;
+}
+
+.Column4
+{
+  
+  width: 250px;
+}
+
+.RepeaterRowSeasonDatesHeadingStyle
+{
+  vertical-align: bottom;   
+}
+
+.SubTitle
+{
+  position: relative;
+  color: rgb(70,70,70); 
+  top:10px;  
+  text-align:center; 
+  font-size:28px;  
+  display: inline;
+  margin:0px;  
+}
+
+.MiniTitleDescription
+{
+   position:relative;
+    float: left; 
+}
+
+.CoursesLabelInfo
+{
+	color: rgb(80,80,80); 
+    font-size:medium;
+    margin-left: 0px;
+    margin-right: 40px;
+    top: 65px;
+    font-weight:bold;
+    text-align:justify;
+    position:relative;  	
+}
+
+.FootNote
+{
+    color: rgb(80,80,80); 
+    font-size:medium;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 35px;
+    font-weight:bold;    
+    position:relative;
+    text-align:justify;    
+    
+}
+
+#calendar:hover
+{
+  cursor:pointer;    
+}
+
+
+/*
+     FILE ARCHIVED ON 05:32:45 Dec 23, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:46:31 Jul 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.627
+  exclusion.robots: 0.169
+  exclusion.robots.policy: 0.16
+  esindex: 0.008
+  cdx.remote: 13.899
+  LoadShardBlock: 231.75 (3)
+  PetaboxLoader3.datanode: 152.749 (4)
+  PetaboxLoader3.resolve: 195.338 (2)
+  load_resource: 162.641
+*/

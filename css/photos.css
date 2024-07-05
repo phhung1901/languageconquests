@@ -1,0 +1,80 @@
+﻿.SubTitle
+{
+  position: relative;
+  color: rgb(70,70,70); 
+  top:10px;  
+  text-align:center; 
+  font-size:28px; 
+  display: inline;
+  margin:0px;   
+}
+
+h3
+{
+  color: rgb(70,70,70);   
+  text-align:center; 
+  font-size:28px;   
+}
+
+
+.Image1
+{
+
+  display: block;
+  width: 400px;
+  height: 300px;
+	
+}
+
+.Image2
+{
+  display:none;
+  width: 400px;
+  height: 300px;
+	
+}
+
+.smallImage
+{
+  position: relative;
+  float:left;	
+  width:300px;
+  height:230px;
+  top:2px;
+	
+}
+
+.slideText
+{
+  position: relative;
+  float:left; 
+  top:5px; 
+}
+
+.text
+{
+	font-size:large;
+	display:none;
+	width: 360px;
+	text-align: center; 
+}
+/*
+     FILE ARCHIVED ON 05:23:12 Dec 23, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:48:38 Jul 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.971
+  exclusion.robots: 0.201
+  exclusion.robots.policy: 0.19
+  esindex: 0.009
+  cdx.remote: 7.888
+  LoadShardBlock: 328.133 (3)
+  PetaboxLoader3.datanode: 75.917 (4)
+  PetaboxLoader3.resolve: 361.392 (2)
+  load_resource: 179.451
+*/

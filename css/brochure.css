@@ -1,0 +1,75 @@
+﻿.SubContentArea
+{
+  height: 290px;   
+}
+
+h3
+{
+  color: rgb(70,70,70);   
+  text-align:center; 
+  font-size:28px;   
+}
+
+.SubTitle
+{
+  position: relative;
+  color: rgb(70,70,70); 
+  top:10px;  
+  text-align:center; 
+  font-size:28px;  
+  display: inline;
+  margin:0px;  
+}
+
+.BrochureProfileLabelInfo
+{
+    color: rgb(80,80,80); 
+    font-size:medium;
+    margin-left: 70px;
+    margin-right: 70px;
+    top: 65px;
+    font-weight:bold;
+    text-align:justify;
+    position:relative;
+}
+
+
+.KriniAskanis
+{
+   width: 90px;
+   height: 100px;   
+   margin-right: 10px;	
+   float:left;	
+}
+
+.ContentArea
+{
+	margin-left: 90px; 
+	margin-right: 90px;
+	text-align:justify;
+	color: rgb(50,50,50); 
+	font-size:medium;    
+    font-weight:bold;	
+}
+
+
+/*
+     FILE ARCHIVED ON 05:32:18 Dec 23, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:44:56 Jul 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.732
+  exclusion.robots: 0.242
+  exclusion.robots.policy: 0.229
+  esindex: 0.011
+  cdx.remote: 108.63
+  LoadShardBlock: 103.288 (3)
+  PetaboxLoader3.datanode: 95.413 (4)
+  PetaboxLoader3.resolve: 166.668 (2)
+  load_resource: 205.638
+*/

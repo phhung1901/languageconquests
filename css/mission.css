@@ -1,0 +1,69 @@
+﻿.MainContent
+{
+	color: rgb(50,50,50); 
+    font-size:medium;
+    margin-left: 95px;
+    margin-right: 95px;
+    font-weight:bold;
+    text-align:justify;
+	
+}
+
+.MainTitle
+{
+   
+   text-align: center;	
+   
+	
+}
+
+.SubTitle
+{
+  position: relative;
+  color: rgb(70,70,70); 
+  top:10px;  
+  text-align:center; 
+  font-size:28px; 
+  display: inline;
+  margin:0px;   
+}
+
+.MissionProfileLabelInfo
+{
+    color: rgb(80,80,80); 
+    font-size:medium;
+    margin-left: 70px;
+    margin-right: 70px;
+    top: 65px;
+    font-weight:bold;
+    text-align:justify;
+    position:relative;
+}
+
+h3
+{
+  color: rgb(70,70,70);   
+  text-align:center; 
+  font-size:28px;   
+}
+
+/*
+     FILE ARCHIVED ON 05:23:11 Dec 23, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:48:24 Jul 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.852
+  exclusion.robots: 0.262
+  exclusion.robots.policy: 0.244
+  esindex: 0.013
+  cdx.remote: 12.348
+  LoadShardBlock: 157.558 (3)
+  PetaboxLoader3.datanode: 79.995 (4)
+  PetaboxLoader3.resolve: 154.96 (2)
+  load_resource: 103.791
+*/
